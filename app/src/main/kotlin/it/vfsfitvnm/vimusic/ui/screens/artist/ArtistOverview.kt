@@ -89,7 +89,7 @@ fun ArtistOverview(
     val binder = LocalPlayerServiceBinder.current
     val menuState = LocalMenuState.current
     val windowInsets = LocalPlayerAwareWindowInsets.current
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     val songThumbnailSizeDp = Dimensions.thumbnails.song
     val songThumbnailSizePx = songThumbnailSizeDp.px

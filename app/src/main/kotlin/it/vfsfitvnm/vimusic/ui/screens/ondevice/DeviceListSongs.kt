@@ -138,7 +138,7 @@ fun DeviceListSongs(
 ) {
     val (colorPalette,typography) = LocalAppearance.current
     val binder = LocalPlayerServiceBinder.current
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
     val menuState = LocalMenuState.current
 
     var songs by persistList<Song>("${deviceLists.name}/songs")

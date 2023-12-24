@@ -85,7 +85,7 @@ fun PlayerSettings() {
     var playerVisualizerType by rememberPreference(playerVisualizerTypeKey, PlayerVisualizerType.Disabled)
     var playerTimelineType by rememberPreference(playerTimelineTypeKey, PlayerTimelineType.Default)
     var playerPlayButtonType by rememberPreference(playerPlayButtonTypeKey, PlayerPlayButtonType.Rectangular)
-    var uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    var uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     var lastPlayerVisualizerType by rememberPreference(lastPlayerVisualizerTypeKey, PlayerVisualizerType.Disabled)
     var lastPlayerTimelineType by rememberPreference(lastPlayerTimelineTypeKey, PlayerTimelineType.Default)

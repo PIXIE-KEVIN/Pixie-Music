@@ -130,7 +130,7 @@ fun QuickPicks(
     val binder = LocalPlayerServiceBinder.current
     val menuState = LocalMenuState.current
     val windowInsets = LocalPlayerAwareWindowInsets.current
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     var trending by persist<Song?>("home/trending")
 

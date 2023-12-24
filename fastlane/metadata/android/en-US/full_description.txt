@@ -1,9 +1,9 @@
-RiMusic is a multilingual Android application for streaming music from YouTube Music, available in several languages
+Pixie Music is a multilingual Android application for streaming music from YouTube Music, available in several languages
 It was born as an extension of the functionality of ViMusic, which retains the general appearance, colors.
 
 ## ✨ Features
 - **Multilingual support:** English, Italian, German, Russian, French, Spanish, Czech, Turkish, Romanian and more. Contributions for other languages are welcome
-- UI Mode, change style from RiMusic to classic ViMusic style and viceversa
+- UI Mode, change style from pixiemusic to classic ViMusic style and viceversa
 - Play song from YouTube Music
 - Change your favorite language from settings
 - Auto cache songs for offline playback with custom cache size
@@ -32,4 +32,4 @@ It was born as an extension of the functionality of ViMusic, which retains the g
 - Check for Updates
 
 Visit it on Github
-https://github.com/fast4x/RiMusic
+https://github.com/fast4x/pixiemusic

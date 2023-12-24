@@ -113,7 +113,7 @@ fun HomeDiscovery(
 
     val (colorPalette, typography) = LocalAppearance.current
     val windowInsets = LocalPlayerAwareWindowInsets.current
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     val scrollState = rememberScrollState()
     val lazyGridState = rememberLazyGridState()

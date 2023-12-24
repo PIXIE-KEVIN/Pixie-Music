@@ -204,7 +204,7 @@ class MainActivity : AppCompatActivity(), PersistMapOwner {
         setContent {
 
 
-            val url = "https://raw.githubusercontent.com/fast4x/RiMusic/master/updatedVersion/updatedVersion.ver"
+            val url = "https://raw.githubusercontent.com/pixiemusic/pixiemusic/master/updatedVersion/updatedVersion.ver"
             /*  */
             request.GET(url, object: Callback {
                 override fun onResponse(call: Call, response: Response) {
@@ -212,7 +212,7 @@ class MainActivity : AppCompatActivity(), PersistMapOwner {
                     runOnUiThread{
                         try {
                             val newVersion = responseData.let { it.toString() }
-                            val file = File(filesDir, "RiMusicUpdatedVersion.ver")
+                            val file = File(filesDir, "pixiemusicUpdatedVersion.ver")
                             file.writeText(newVersion)
                             isConnected = true
                             //this@MainActivity
@@ -558,7 +558,7 @@ class MainActivity : AppCompatActivity(), PersistMapOwner {
         //intent.data = null
         //this.intent = null
 
-        Toast.makeText(this, "${"RiMusic "}${getString(R.string.opening_url)}", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "${"pixiemusic "}${getString(R.string.opening_url)}", Toast.LENGTH_LONG).show()
 
         lifecycleScope.launch(Dispatchers.IO) {
             when (val path = uri.pathSegments.firstOrNull()) {
@@ -611,7 +611,7 @@ class MainActivity : AppCompatActivity(), PersistMapOwner {
         super.onDestroy()
         //stopService(Intent(this, MyDownloadService::class.java))
         //stopService(Intent(this, PlayerService::class.java))
-        //Log.d("rimusic debug","onDestroy")
+        //Log.d("pixiemusic debug","onDestroy")
         if (!isChangingConfigurations) {
             persistMap.clear()
         }

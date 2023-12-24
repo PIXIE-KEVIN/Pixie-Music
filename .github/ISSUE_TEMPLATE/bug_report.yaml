@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ⚠️ Make sure you are able to reproduce the bug with the [latest version](https://github.com/fast4x/rimusic/releases/latest).
+        ## ⚠️ Make sure you are able to reproduce the bug with the [latest version](https://github.com/pixiemusic/pixiemusic/releases/latest).
         ## ⚠️ Make sure there is no issue about this bug already.
 
   - type: textarea
@@ -59,9 +59,9 @@ body:
         If your bug includes a crash, please use `adb logcat` or other ways to provide logs.
   
   - type: input
-    id: rimusic-version
+    id: pixiemusic-version
     attributes:
-      label: RiMusic version
+      label: pixiemusic version
       placeholder: |
         Example: "0.1.5"
     validations:

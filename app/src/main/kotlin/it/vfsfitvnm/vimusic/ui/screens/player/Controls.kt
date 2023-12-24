@@ -127,7 +127,7 @@ fun Controls(
     val binder = LocalPlayerServiceBinder.current
     binder?.player ?: return
 
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     var trackLoopEnabled by rememberPreference(trackLoopEnabledKey, defaultValue = false)
 
@@ -516,7 +516,7 @@ fun Controls(
                 .fillMaxWidth()
         ) {
 
-            if (uiType != UiType.RiMusic)
+            if (uiType != UiType.pixiemusic)
                 IconButton(
                     color = colorPalette.favoritesIcon,
                     icon = if (likedAt == null) R.drawable.heart_outline else R.drawable.heart,
@@ -571,7 +571,7 @@ fun Controls(
                         }
                         if (effectRotationEnabled) isRotated = !isRotated
                     }
-                    //.background(if (uiType != UiType.RiMusic) colorPalette.background3 else colorPalette.background0)
+                    //.background(if (uiType != UiType.pixiemusic) colorPalette.background3 else colorPalette.background0)
                     .background(
                         when(playerPlayButtonType){
                             PlayerPlayButtonType.CircularRibbed -> colorPalette.background0
@@ -580,10 +580,10 @@ fun Controls(
                             PlayerPlayButtonType.Square -> colorPalette.background3
                         }
                     )
-                    .width(if (uiType != UiType.RiMusic) PlayerPlayButtonType.Default.width.dp else playerPlayButtonType.width.dp)
-                    .height(if (uiType != UiType.RiMusic) PlayerPlayButtonType.Default.height.dp else playerPlayButtonType.height.dp)
+                    .width(if (uiType != UiType.pixiemusic) PlayerPlayButtonType.Default.width.dp else playerPlayButtonType.width.dp)
+                    .height(if (uiType != UiType.pixiemusic) PlayerPlayButtonType.Default.height.dp else playerPlayButtonType.height.dp)
             ) {
-                if (uiType == UiType.RiMusic && playerPlayButtonType == PlayerPlayButtonType.CircularRibbed)
+                if (uiType == UiType.pixiemusic && playerPlayButtonType == PlayerPlayButtonType.CircularRibbed)
                 Image(
                     painter = painterResource(R.drawable.a13shape),
                     colorFilter = ColorFilter.tint(colorPalette.background3),
@@ -618,7 +618,7 @@ fun Controls(
                     .size(26.dp)
             )
 
-            if (uiType != UiType.RiMusic)
+            if (uiType != UiType.pixiemusic)
             IconButton(
                 icon = R.drawable.repeat,
                 color = if (trackLoopEnabled) colorPalette.iconButtonPlayer else colorPalette.textDisabled,

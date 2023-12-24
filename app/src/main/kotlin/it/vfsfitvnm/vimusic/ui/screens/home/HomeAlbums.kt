@@ -63,7 +63,7 @@ fun HomeAlbums(
     onSearchClick: () -> Unit,
 ) {
     val (colorPalette) = LocalAppearance.current
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     var sortBy by rememberPreference(albumSortByKey, AlbumSortBy.DateAdded)
     var sortOrder by rememberPreference(albumSortOrderKey, SortOrder.Descending)

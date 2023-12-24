@@ -165,7 +165,7 @@ fun HeaderWithIcon (
 ){
     val typography = LocalAppearance.current.typography
     val colorPalette = LocalAppearance.current.colorPalette
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
     val disableIconButtonOnTop by rememberPreference(disableIconButtonOnTopKey, false)
 
     Row (

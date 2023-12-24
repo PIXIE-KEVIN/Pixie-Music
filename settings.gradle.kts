@@ -58,7 +58,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RiMusic"
+rootProject.name = "pixiemusic"
 include(":app")
 include(":compose-routing")
 include(":compose-reordering")

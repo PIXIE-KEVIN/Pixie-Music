@@ -1,12 +1,12 @@
 <div align="center">
   <img src="./app_logo.png" width="300" height="100" />    
-  <p><b>RiMusic</b> is a <b>multilingual</b> Android application for streaming music from YouTube Music.</p>
+  <p><b>pixiemusic</b> is a <b>multilingual</b> Android application for streaming music from YouTube Music.</p>
   <p>It was born as an extension of the functionality of <b>ViMusic</b>, which retains the general appearance, colors.</p>
 </div>
 
 ## ✨ Features
 - **Multilingual support:** English, Italian, German, Russian, French, Spanish, Czech, Turkish, Romanian and more. Contributions for other languages are welcome
-- UI Mode, change style from RiMusic to classic ViMusic style and viceversa
+- UI Mode, change style from pixiemusic to classic ViMusic style and viceversa
 - Play song from YouTube Music
 - Change your favorite language from settings
 - Auto cache songs for offline playback with custom cache size
@@ -46,29 +46,29 @@
 
 ## 🌐 Languages available
 - **Bashkir:** thanks to Shilave malay (Bash.boy)
-- **Czech:** thanks to [@ikanakova](https://github.com/ikanakova)
-- **English:** thanks to [@fast4x](https://github.com/fast4x)
-- **Esperanto:** thanks to [r.t.redreovic @Red1922](https://github.com/Red1922)
-- **French:** thanks to [@NEVARLeVrai](https://github.com/NEVARLeVrai)
-- **German:** thanks to [@siggi1984](https://github.com/siggi1984)
-- **Italian:** thanks to [@fast4x](https://github.com/fast4x)
-- **Indonesian:** thanks to [@teddysulaimanGL](https://github.com/teddysulaimanGL)
-- **Odia:** thanks to [@Get100percent](https://github.com/Get100percent)
-- **Polish:** thanks to [@roklc](https://github.com/roklc) and [@damianadam000](https://github.com/damianadam000)
-- **Portuguese:** thanks to [@NEVARLeVrai](https://github.com/NEVARLeVrai)
-- **Portuguese, Brazilian:** thanks to [@NEVARLeVrai](https://github.com/NEVARLeVrai)
-- **Romanian:** thanks to [@OrangeZXZ](https://github.com/OrangeZxZ)
-- **Russian:** thanks to [@siggi1984](https://github.com/siggi1984)
-- **Spanish:** thanks to [@DanielSevillano](https://github.com/DanielSevillano)
-- **Turkish:** thanks to [@abfreeman](https://github.com/abfreeman) and [@2010furs](https://github.com/2010furs)
+- **Czech:** thanks to @ikanakova
+- **English:** thanks to @fast4x
+- **Esperanto:** thanks to r.t.redreovic @Red1922
+- **French:** thanks to @NEVARLeVrai
+- **German:** thanks to @siggi1984
+- **Italian:** thanks to @fast4x
+- **Indonesian:** thanks to @teddysulaimanGL
+- **Odia:** thanks to @Get100percent
+- **Polish:** thanks to @roklc and @damianadam000
+- **Portuguese:** thanks to @NEVARLeVrai
+- **Portuguese, Brazilian:** thanks to @NEVARLeVrai
+- **Romanian:** thanks to @OrangeZXZ
+- **Russian:** thanks to @siggi1984
+- **Spanish:** thanks to @DanielSevillano
+- **Turkish:** thanks to @abfreeman and @2010furs
 
 
 ## 🔤 Translations
-- Go to [Crowdin](https://crowdin.com/project/rimusic/invite?h=73f0e6b64be1c64a8aebd467d286cf851925330) and help with the translations.
+- Go to [Crowdin](https://crowdin.com/project/pixiemusic/invite?h=73f0e6b64be1c64a8aebd467d286cf851925330) and help with the translations.
 
 ## 📲 Installation
-[<img src="./assets/images/getItGithub.png" alt="GitHub" height="80">](https://github.com/fast4x/RiMusic/releases/latest)
-[<img src="./assets/images/getItIzzyOnDroid.png" alt="IzzyOnDroid" height="80">](https://apt.izzysoft.de/fdroid/index/apk/it.fast4x.rimusic/)
+[<img src="./assets/images/getItGithub.png" alt="GitHub" height="80">](https://github.com/fast4x/pixiemusic/releases/latest)
+[<img src="./assets/images/getItIzzyOnDroid.png" alt="IzzyOnDroid" height="80">](https://apt.izzysoft.de/fdroid/index/apk/pixie.kevin.pixiemusic/)
 
 ## 🤝 Contributing
 **Pull requests are welcome**

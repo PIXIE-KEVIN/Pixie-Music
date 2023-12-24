@@ -108,7 +108,7 @@ fun Queue(
     content: @Composable BoxScope.() -> Unit,
 ) {
     val (colorPalette, typography, thumbnailShape) = LocalAppearance.current
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
     val windowInsets = WindowInsets.systemBars
 
     val horizontalBottomPaddingValues = windowInsets

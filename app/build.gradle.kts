@@ -9,7 +9,7 @@ android {
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "it.fast4x.rimusic"
+        applicationId = "pixie.kevin.pixiemusic"
         minSdk = 21
         targetSdk = 33
         versionCode = 8
@@ -29,13 +29,13 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix = ".debug"
-            manifestPlaceholders["appName"] = "RiMusic-Debug"
+            manifestPlaceholders["appName"] = "pixiemusic-Debug"
         }
 
         release {
             isMinifyEnabled = true
             isShrinkResources = true
-            manifestPlaceholders["appName"] = "RiMusic"
+            manifestPlaceholders["appName"] = "Pixie Music"
             signingConfig = signingConfigs.getByName("debug")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }

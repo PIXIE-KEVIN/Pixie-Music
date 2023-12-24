@@ -8,7 +8,7 @@
 .externalNativeBuild
 .cxx
 local.properties
-/APK keystore/RiMusicKeystore.jks
+/APK keystore/pixiemusicKeystore.jks
 /APK keystore/pwd key.txt
 /crowdin.properties
 /__crowdin.properties

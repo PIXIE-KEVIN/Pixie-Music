@@ -95,7 +95,7 @@ fun AppearanceSettings() {
     var lastPlayerTimelineType by rememberPreference(lastPlayerTimelineTypeKey, PlayerTimelineType.Default)
     var lastPlayerThumbnailSize by rememberPreference(lastPlayerThumbnailSizeKey, PlayerThumbnailSize.Medium)
     var lastPlayerPlayButtonType by rememberPreference(lastPlayerPlayButtonTypeKey, PlayerPlayButtonType.Rectangular)
-    var uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    var uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
     var disablePlayerHorizontalSwipe by rememberPreference(disablePlayerHorizontalSwipeKey, false)
     var disableIconButtonOnTop by rememberPreference(disableIconButtonOnTopKey, false)
     var disableScrollingText by rememberPreference(disableScrollingTextKey, false)
@@ -154,7 +154,7 @@ fun AppearanceSettings() {
             },
             valueText = {
                 when(it) {
-                    UiType.RiMusic -> UiType.RiMusic.name
+                    UiType.pixiemusic -> UiType.pixiemusic.name
                     UiType.ViMusic -> UiType.ViMusic.name
                 }
             }

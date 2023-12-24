@@ -85,7 +85,7 @@ fun HomePlaylists(
 ) {
     val (colorPalette, typography, thumbnailShape) = LocalAppearance.current
     val windowInsets = LocalPlayerAwareWindowInsets.current
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     var isCreatingANewPlaylist by rememberSaveable {
         mutableStateOf(false)

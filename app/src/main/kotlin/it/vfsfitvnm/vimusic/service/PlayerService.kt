@@ -221,12 +221,12 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
         )
         /*
         .addCustomAction(
-            "it.fast4x.rimusic.like",
+            "pixie.kevin.pixiemusic.like",
             "Like",
             if (isLikedState.value) R.drawable.heart else R.drawable.heart_outline
         )
         .addCustomAction(
-            "it.fast4x.rimusic.download",
+            "pixie.kevin.pixiemusic.download",
             "Download",
             R.drawable.arrow_down //if () R.drawable.heart else R.drawable.heart_outline
         )
@@ -271,12 +271,12 @@ class PlayerService : InvincibleService(), Player.Listener, PlaybackStatsListene
 
         var directory = cacheDir
         val downloadDirectory = getExternalFilesDir(null) ?: filesDir
-        var cacheDirName = "rimusic_cache"
+        var cacheDirName = "pixiemusic_cache"
         val cacheSize =
             preferences.getEnum(exoPlayerDiskCacheMaxSizeKey, ExoPlayerDiskCacheMaxSize.`2GB`)
 
 
-        if (cacheSize == ExoPlayerDiskCacheMaxSize.Disabled) cacheDirName = "rimusic_no_cache"
+        if (cacheSize == ExoPlayerDiskCacheMaxSize.Disabled) cacheDirName = "pixiemusic_no_cache"
 
         if (exoPlayerAlternateCacheLocation == "") {
             directory = cacheDir.resolve(cacheDirName).also { directory ->
@@ -1387,8 +1387,8 @@ private fun likeMediaItemAction() {
 
         override fun onCustomAction(action: String, extras: Bundle?) {
             super.onCustomAction(action, extras)
-            if (action == "it.fast4x.rimusic.like") likeMediaItemAction()
-            if (action == "it.fast4x.rimusic.download") Log.d("plserviceOnCustomAction", Action.download.value)
+            if (action == "pixie.kevin.pixiemusic.like") likeMediaItemAction()
+            if (action == "pixie.kevin.pixiemusic.download") Log.d("plserviceOnCustomAction", Action.download.value)
         }
 
     }
@@ -1432,12 +1432,12 @@ private fun likeMediaItemAction() {
             val like = Action("it.vfsfitvnm.vimusic.like")
             val download = Action("it.vfsfitvnm.vimusic.download")
              */
-            val pause = Action("it.fast4x.rimusic.pause")
-            val play = Action("it.fast4x.rimusic.play")
-            val next = Action("it.fast4x.rimusic.next")
-            val previous = Action("it.fast4x.rimusic.previous")
-            val like = Action("it.fast4x.rimusic.like")
-            val download = Action("it.fast4x.rimusic.download")
+            val pause = Action("pixie.kevin.pixiemusic.pause")
+            val play = Action("pixie.kevin.pixiemusic.play")
+            val next = Action("pixie.kevin.pixiemusic.next")
+            val previous = Action("pixie.kevin.pixiemusic.previous")
+            val like = Action("pixie.kevin.pixiemusic.like")
+            val download = Action("pixie.kevin.pixiemusic.download")
 
         }
     }

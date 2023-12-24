@@ -1,5 +1,5 @@
 <resources>
-    <style name="Theme.RiMusic" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <style name="Theme.pixiemusic" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="android:windowActionBar">false</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
@@ -45,7 +45,7 @@
 
         <!-- Set the theme of the Activity that directly follows your splash
         screen. This is required. -->
-        <item name="postSplashScreenTheme">@style/Theme.RiMusic</item>
+        <item name="postSplashScreenTheme">@style/Theme.pixiemusic</item>
     </style>
 
 

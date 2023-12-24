@@ -129,7 +129,7 @@ fun Player(
     //val context = LocalContext.current
     val menuState = LocalMenuState.current
 
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     var effectRotationEnabled by rememberPreference(effectRotationKey, true)
 

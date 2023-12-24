@@ -95,7 +95,7 @@ fun HomeArtistList(
 
     var sortBy by rememberPreference(artistSortByKey, ArtistSortBy.DateAdded)
     var sortOrder by rememberPreference(artistSortOrderKey, SortOrder.Descending)
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     var items by persistList<Artist>("home/artists")
 

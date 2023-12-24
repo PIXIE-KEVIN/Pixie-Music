@@ -157,7 +157,7 @@
     <string name="is_min_list_time_for_tips_or_quick_pics">Это минимальное время прослушивания, чтобы включить песню в список возможных советов или обзора</string>
     <string name="min_listening_time">Мин. время прослушивания</string>
     <string name="player_thumbnail_size">Размер миниатюры</string>
-    <string name="restarting_rimusic_is_required">Требуется перезагрузка</string>
+    <string name="restarting_pixiemusic_is_required">Требуется перезагрузка</string>
     <string name="size_name">Размер</string>
     <string name="current_size_name">"Текущий размер "</string>
     <string name="current_shape_name">Текущая форма</string>

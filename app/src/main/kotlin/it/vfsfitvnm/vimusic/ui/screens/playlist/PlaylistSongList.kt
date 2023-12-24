@@ -129,7 +129,7 @@ fun PlaylistSongList(
     val binder = LocalPlayerServiceBinder.current
     val context = LocalContext.current
     val menuState = LocalMenuState.current
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     var playlistPage by persist<Innertube.PlaylistOrAlbumPage?>("playlist/$browseId/playlistPage")
 

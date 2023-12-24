@@ -36,7 +36,7 @@ fun ShowUpdatedVersion(
     //if (BuildConfig.VERSION_NAME != updatedVersion)
 
     //val file = getFilesDir() //shows as unresolved reference
-    val file = File(LocalContext.current.filesDir, "RiMusicUpdatedVersion.ver")
+    val file = File(LocalContext.current.filesDir, "pixiemusicUpdatedVersion.ver")
     val newVersion = file.readText()
 
 

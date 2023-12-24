@@ -68,7 +68,7 @@ fun ArtistLocalSongs(
     val binder = LocalPlayerServiceBinder.current
     val (colorPalette) = LocalAppearance.current
     val menuState = LocalMenuState.current
-    val uiType  by rememberPreference(UiTypeKey, UiType.RiMusic)
+    val uiType  by rememberPreference(UiTypeKey, UiType.pixiemusic)
 
     var songs by persist<List<Song>?>("artist/$browseId/localSongs")
 
