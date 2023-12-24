@@ -67,7 +67,7 @@
 - Go to [Crowdin](https://crowdin.com/project/pixiemusic/invite?h=73f0e6b64be1c64a8aebd467d286cf851925330) and help with the translations.
 
 ## 📲 Installation
-[<img src="./assets/images/getItGithub.png" alt="GitHub" height="80">](https://github.com/fast4x/pixiemusic/releases/latest)
+[<img src="./assets/images/getItGithub.png" alt="GitHub" height="80">](https://github.com/PIXIE-KEVIN/Pixie-Music)
 [<img src="./assets/images/getItIzzyOnDroid.png" alt="IzzyOnDroid" height="80">](https://apt.izzysoft.de/fdroid/index/apk/pixie.kevin.pixiemusic/)
 
 ## 🤝 Contributing
