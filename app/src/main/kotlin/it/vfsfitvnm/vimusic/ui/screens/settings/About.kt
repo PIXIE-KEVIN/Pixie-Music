@@ -81,7 +81,7 @@ fun About() {
                 .fillMaxSize()
         ) {
             BasicText(
-                text = "pixiemusic v${BuildConfig.VERSION_NAME} by pixiemusic",
+                text = "Pixie Music v${BuildConfig.VERSION_NAME} by Pixie-Kevin",
                 style = typography.s.secondary,
 
                 )
@@ -119,10 +119,10 @@ fun About() {
         SettingsEntryGroupText(title = stringResource(R.string.social))
 
         SettingsEntry(
-            title = "GitHub",
+            title = "Whatsapp",
             text = stringResource(R.string.view_the_source_code),
             onClick = {
-                uriHandler.openUri("https://github.com/pixiemusic/pixiemusic")
+                uriHandler.openUri("")
             }
         )
 
@@ -134,7 +134,7 @@ fun About() {
             title = stringResource(R.string.report_an_issue),
             text = stringResource(R.string.you_will_be_redirected_to_github),
             onClick = {
-                uriHandler.openUri("https://github.com/pixiemusic/pixiemusic/issues/new?assignees=&labels=bug&template=bug_report.yaml")
+                uriHandler.openUri("")
             }
         )
 
@@ -143,7 +143,7 @@ fun About() {
             title = stringResource(R.string.request_a_feature_or_suggest_an_idea),
             text = stringResource(R.string.you_will_be_redirected_to_github),
             onClick = {
-                uriHandler.openUri("https://github.com/pixiemusic/pixiemusic/issues/new?assignees=&labels=feature_request&template=feature_request.yaml")
+                uriHandler.openUri("")
             }
         )
 
