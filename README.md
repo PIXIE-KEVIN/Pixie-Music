@@ -59,7 +59,7 @@
 - **Portuguese, Brazilian:** thanks to @NEVARLeVrai
 - **Romanian:** thanks to @OrangeZXZ
 - **Russian:** thanks to @siggi1984
-- **Spanish:** thanks to @DanielSevillano
+- **Spanish:** thanks to @DanielSevillano @Pixie-Kevin
 - **Turkish:** thanks to @abfreeman and @2010furs
 
 
