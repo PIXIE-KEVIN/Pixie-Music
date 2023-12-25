@@ -173,10 +173,10 @@ fun HomeScreen(
 
 
             Scaffold(
-                //topIconButtonId = if (newVersion == "") R.drawable.settings else R.drawable.direct_download,
-                onTopIconButtonClick = { settingsRoute() },
-                topIconButton2Id = R.drawable.stats_chart,
-                onTopIconButton2Click = { statisticsTypeRoute(StatisticsType.Today) },
+    topIconButtonId = R.drawable.settings,
+    onTopIconButtonClick = { settingsRoute() },
+    topIconButton2Id = R.drawable.stats_chart,
+    onTopIconButton2Click = { statisticsTypeRoute(StatisticsType.Today) },
                 showButton2 = true,
                 tabIndex = tabIndex,
                 onTabChanged = onTabChanged,
