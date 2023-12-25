@@ -87,13 +87,13 @@ fun About() {
                 )
         }
 
-        if (newVersion != "") {
-            //SettingsEntryGroupText(title = "Update available")
+        /*if (newVersion != "") {
+            SettingsEntryGroupText(title = "Update available")
             SettingsEntry(
                 title = "New version $newVersion",
                 text = "Click here to open page",
                 onClick = {
-                   // uriHandler.openUri("https://github.com/pixiemusic/pixiemusic/releases")
+                    uriHandler.openUri("https://github.com/pixiemusic/pixiemusic/releases")
                     //uriHandler.openUri("https://github.com/pixiemusic/pixiemusic/releases")
                 },
                 trailingContent = {
@@ -112,7 +112,7 @@ fun About() {
                     )
 
             )
-        }
+        }*/
 
         SettingsGroupSpacer()
 
