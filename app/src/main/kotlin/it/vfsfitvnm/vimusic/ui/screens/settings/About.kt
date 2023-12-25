@@ -94,7 +94,7 @@ fun About() {
                 text = "Click here to open page",
                 onClick = {
                     uriHandler.openUri("https://github.com/pixiemusic/pixiemusic/releases")
-                    //uriHandler.openUri("https://github.com/pixiemusic/pixiemusic/releases/tag/v0.6.9")
+                    //uriHandler.openUri("https://github.com/pixiemusic/pixiemusic/releases")
                 },
                 trailingContent = {
                     Image(
